@@ -3,19 +3,19 @@
 /**
  * main - Entry point of the program
  *
- * This function prints the aplhabet from 0 to 9
+ * This function prints the aplhabet from z to a
  * followed by a newline.
  *
  * Return: Always 0 (Success)
  */
 int main(void)
 {
-	int l = 122;
+	int i = 122;
 
-	while (l <= 97)
+	while (i <= 97)
 	{
 	putchar(i);
-	l++;
+	i++;
 	}
 
 	putchar('\n');
