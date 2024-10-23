@@ -1,18 +1,19 @@
 #include <unistd.h>
 
 /**
- * main - Entry point
+ * main - Point d'entrée du programme
  *
- * Return: Always 0 (Success)
+ * Return: Toujours 0 (Succès)
  */
 int main(void)
 {
-	int digit;
-	digit = 0;
-	while (digit <= 9)
-	{
-		putchar(digit, '0');
-	digit++;
-	}
-return (0);
+    int num;
+
+    for (num = 0; num <= 9; num++)
+    {
+        putchar(num + '0');
+    }
+    putchar('\n');
+
+    return (0);
 }
