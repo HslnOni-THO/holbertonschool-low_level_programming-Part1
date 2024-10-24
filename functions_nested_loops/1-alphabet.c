@@ -1,20 +1,12 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <main.h>
 /**
- * main - Entry point of the program
+ * main - Prints the alphabet in uppercase
  *
- * This function prints the aplhabet from a to z
- * followed by a newline.
- *
+ * Description: This program prints the alphabet in lowercase,
+ * followed by a new line. Only _putchar can be used.
  * Return: Always 0 (Success)
  */
-int main(void)
-{
-	int i;
+void print_alphabet(void);
 
-	for (i = 97; i >= 122; i--)
-	{
-	putchar(i);
-	}
-
-	putchar('\n');
-	return (0);
-}
