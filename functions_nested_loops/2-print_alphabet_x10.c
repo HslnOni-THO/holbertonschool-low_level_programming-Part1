@@ -6,16 +6,18 @@
  * followed by a new line. Only _putchar can be used.
  * Return: Always 0 (Success)
  */
-void print_alphabet_x10(void) {
 
-charletter = 'a';
+void print_alphabet_x10(void)
+{
+int i;
+char letter;
 
-while (letter <= 'z')
+for (i = 0; i < 10; i++)
+{
+for (letter = 'a'; letter <= 'z'; letter++)
 {
 _putchar(letter);
-letter++;
 }
-_putchar('\n');
-
-return (10);
+_putchar('\n'); // New line after each complete alphabet
+}
 }
