@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * print_alphabet- Prints the alphabet in uppercase
+ * print_alphabet_x10 - prints the alphabet 10 times
  *
  * Description: PRINTS "print_alphabet" followed by a new line
  * followed by a new line. Only _putchar can be used.
