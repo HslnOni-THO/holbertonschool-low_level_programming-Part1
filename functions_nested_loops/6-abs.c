@@ -1,11 +1,10 @@
 #include "main.h"
+#include "main.h"
 /**
- * print_sign - Prints the sign of a number
- * @n: The number to check
+ * _abs - Computes the absolute value of an integer
+ * @n: The integer to compute the absolute value of
  *
- * Return: 1 and prints + if n is greater than zero
- *         0 and prints 0 if n is zero
- *         -1 and prints - if n is less than zero
+ * Return: The absolute value of n
  */
 int _abs(int n)
 {
