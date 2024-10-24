@@ -17,5 +17,5 @@ letter++;
 }
 _putchar('\n');
 
-return(10);
+return (10);
 }
