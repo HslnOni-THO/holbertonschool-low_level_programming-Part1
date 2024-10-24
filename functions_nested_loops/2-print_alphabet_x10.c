@@ -8,7 +8,7 @@
  */
 void print_alphabet_x10(void);
 {
-char letter = 'a';
+charletter = 'a';
 
 while (letter <= 'z')
 {
@@ -18,3 +18,4 @@ letter++;
 _putchar('\n');
 
 return(10);
+}
