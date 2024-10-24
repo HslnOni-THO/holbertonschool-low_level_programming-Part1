@@ -2,7 +2,7 @@
 /**
  * main - Prints the alphabet in uppercase
  *
- * Description: This program prints the alphabet in lowercase,
+ *Description: PRINTS "_putchar" followed by a new line
  * followed by a new line. Only _putchar can be used.
  * Return: Always 0 (Success)
  */
